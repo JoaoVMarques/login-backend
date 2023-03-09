@@ -1,11 +1,10 @@
 from flask import Flask
+from routes.test_routes import Test_routes
 
 class Server:
     def __init__(self):
         self.app = Flask('testes')
-        @self.app.route("/sayhi")
-        def hello_world():
-            return 'Olá mundo!'
+        self.route = Test_routes(self.app)
         
     def start(self):
         print('servidor iniciado')
