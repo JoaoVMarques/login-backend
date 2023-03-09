@@ -15,7 +15,7 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
   - Entre na pasta ```cd login-backend```
 
   #### 2 - Criar o ambiente virtual
-  - Instale as depencias ```python3 -m venv .venv && source .venv/bin/activate```
+  - Inicie o ambiente virtual ```python3 -m venv .venv && source .venv/bin/activate```
   
   #### 3 - Instalar as dependencias
   - Para iniciar o projeto utilize ```python3 -m pip install -r dev-requirements.txt```
