@@ -18,11 +18,15 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
   - Inicie o ambiente virtual ```python3 -m venv .venv && source .venv/bin/activate```
   
   #### 3 - Instalar as dependencias
-  - Para iniciar o projeto utilize ```python3 -m pip install -r dev-requirements.txt```
+  - Para instalar as dependencias ```python3 -m pip install -r dev-requirements.txt```
+  
+  ### 4 - Iniciar o servidor
+  - Para iniciar o servidor ```python3 login_backend```
+
 </details>
 
 ## 🏆 Objetivos
-- [ ] Fazer a API funcionar
+- [x] Fazer a API funcionar
 - [ ] Criar o sistema de logar em uma conta existente
 - [ ] Sistema de criar uma conta
 - [ ] Bonus: Tentar remover uma conta criada
