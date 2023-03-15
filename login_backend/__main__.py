@@ -1,5 +1,5 @@
 from flask import Flask
-from routes.test_routes import Test_routes
+from login_backend.routes.testing_routes import Test_routes
 
 class Server:
     def __init__(self):
@@ -9,6 +9,9 @@ class Server:
     def start(self):
         print('servidor iniciado')
         self.app.run()
+
+    def get(self, route):
+        return self.app.get(route)
 
 if __name__ == '__main__':
     server = Server()
