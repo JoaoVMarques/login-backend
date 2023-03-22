@@ -20,7 +20,7 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
   #### 3 - Instalar as dependencias
   - Para instalar as dependencias ```python3 -m pip install -r dev-requirements.txt```
   
-  ### 4 - Iniciar o servidor
+  #### 4 - Iniciar o servidor
   - Para iniciar o servidor ```python3 -m login_backend```
 
 </details>
