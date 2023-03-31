@@ -45,6 +45,7 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
   - Todas as dependencias estão dentro de ```dev-requirements.txt```
   - [Flask](https://flask.palletsprojects.com/en/2.2.x/) Framework para o servidor 
   - [SQLAlchemy](https://www.sqlalchemy.org/) ORM
+  - [pymysql](https://pypi.org/project/pymysql/) conectar o python com mysql
   - [Flake8](https://flake8.pycqa.org/en/latest/) Linter
   - [Pytest](https://docs.pytest.org/en/7.2.x/) Testes
   - [Pytest-cov](https://pytest-cov.readthedocs.io/en/latest/) Porcentagem de testes
