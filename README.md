@@ -19,9 +19,31 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
   
   #### 3 - Instalar as dependencias
   - Para instalar as dependencias ```python3 -m pip install -r dev-requirements.txt```
+
+  #### 4 - Inicie o banco de dados
+  - Para iniciar o banco de dados siga os passos de **Iniciando e configurando o banco de dados**
   
   #### 4 - Iniciar o servidor
   - Para iniciar o servidor ```python3 -m login_backend```
+
+</details>
+
+
+## 🐋 Banco de dados Docker
+<details>
+  <summary>Iniciando e configurando o banco de dados</summary>
+
+  ⚠️ O docker precisa estar instalado e  estar na versão 1.29 ou superior ⚠️ [documentação para instalar o docker](https://docs.docker.com/compose/install/)
+
+  para iniciar o banco de dados use o comando ```login-backend-db```
+
+  - ⚙️ configurações padrões do banco de dados
+  ```
+  host: localhost
+  port: 3306
+  user: root
+  password: password
+  ```
 
 </details>
 
