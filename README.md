@@ -23,7 +23,7 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
   #### 4 - Inicie o banco de dados
   - Para iniciar o banco de dados siga os passos de **Iniciando e configurando o banco de dados**
   
-  #### 4 - Iniciar o servidor
+  #### 5 - Iniciar o servidor
   - Para iniciar o servidor ```python3 -m login_backend```
 
 </details>
