@@ -14,8 +14,3 @@ class Login_routes:
         def login():
             data = request.json
             return jsonify(data)
-            # email = 'teste@email.com'
-            # password = 'password123'
-            # if data['email'] == email and data['password'] == password:
-            #     return jsonify(data)
-            # return {'error': 'email or password not exists'}, 403
