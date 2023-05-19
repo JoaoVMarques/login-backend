@@ -71,6 +71,6 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
   - [Flake8](https://flake8.pycqa.org/en/latest/) Linter
   - [Pytest](https://docs.pytest.org/en/7.2.x/) Testes
   - [Pytest-cov](https://pytest-cov.readthedocs.io/en/latest/) Porcentagem de testes
-  - [flask-validate-json](https://pypi.org/project/flask-validate-json/) Validar schemas do json
+  - [flask-expects-json](https://pypi.org/project/flask-expects-json/) Validar schemas do json
   
 </details>
