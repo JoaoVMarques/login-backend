@@ -10,7 +10,7 @@ class Login_routes:
 
     def routes(self):
         @self.app.route('/login', methods=['POST'])
-        @expects_json(schema)
+        @expects_json(schema, check_formats=True)
         def login():
             data = request.json
             return jsonify(data)
