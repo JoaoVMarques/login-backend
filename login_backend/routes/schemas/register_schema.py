@@ -5,7 +5,12 @@ schema = {
             'type': 'string',
             'format': 'email',
             },
-        'password': {'type': 'string'}
+        'username': {'type': 'string'},
+        'password': {
+            'type': 'string',
+            'minLength': 6,
+            'maxLength': 20
+            }
     },
     'required': ['email', 'password']
 }
