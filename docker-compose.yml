@@ -5,6 +5,9 @@ services:
     restart: always
     image: mysql:8.0.23
     container_name: login-backend-db
+    command: --init-file /data/application/init.sql
+    volumes:  
+      - ./db/init.sql:/data/application/init.sql
     ports:
       - "3306:3306" 
     environment:

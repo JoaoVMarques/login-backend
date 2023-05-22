@@ -35,7 +35,7 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
 
   ⚠️ O docker precisa estar instalado e  estar na versão 1.29 ou superior ⚠️ [documentação para instalar o docker](https://docs.docker.com/compose/install/)
 
-  para iniciar o banco de dados use o comando ```login-backend-db```
+  para iniciar o banco de dados use o comando ```docker compose up -d```
 
   - ⚙️ configurações padrões do banco de dados
   ```
