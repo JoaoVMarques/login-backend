@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS dev;
+CREATE DATABASE IF NOT EXISTS login_backend_dev;
 
-USE dev;
+USE login_backend_dev;
 
 CREATE TABLE contas (
     id integer not null auto_increment,
