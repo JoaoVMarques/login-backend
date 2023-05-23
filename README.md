@@ -72,5 +72,6 @@ Treinar python no backend e expandir minhas linguagem para poder usar python
   - [Pytest](https://docs.pytest.org/en/7.2.x/) Testes
   - [Pytest-cov](https://pytest-cov.readthedocs.io/en/latest/) Porcentagem de testes
   - [flask-expects-json](https://pypi.org/project/flask-expects-json/) Validar schemas do json
+  - [mysql-connector-python](https://pypi.org/project/mysql-connector-python/) Conectar com o banco de dados
   
 </details>
