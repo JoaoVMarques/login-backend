@@ -13,8 +13,8 @@ class Register_routes:
         @self.app.route('/register', methods=['POST'])
         @expects_json(schema, check_formats=True)
         def register():
-            service = Register_service
             data = request.json
-            response = service.register(data)
+            service = Register_service(data)
+            response = service.register()
 
             return response
