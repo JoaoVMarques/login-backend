@@ -1,22 +1,20 @@
-from login_backend.db import my_db
+from login_backend.utils.db_queries import Db_queries
 
 
 class Register_service:
     def __init__(self, account):
         self.account = account
+        self.query = Db_queries()
 
     def register(self):
         account = self.account
-        cursor = my_db.cursor()
         sql = f"""INSERT INTO contas (username, password, email) VALUES (
         '{account['username']}',
         '{account['password']}',
         '{account['email']}')"""
 
-        valid = self.checkAccountValid()
-        if valid:
-            cursor.execute(sql)
-            my_db.commit()
+        if self.checkAccountValid():
+            self.query.insertOne(sql)
             return {'message': 'Conta criada com sucesso!'}
 
         return {'message': 'O nome de usuário deve ser único'}
@@ -25,9 +23,6 @@ class Register_service:
         sql = f"""SELECT username
         FROM contas
         WHERE username = '{self.account['username']}'"""
-        cursor = my_db.cursor()
 
-        cursor.execute(sql)
-        account = cursor.fetchone()
-        cursor.reset()
+        account = self.query.selectONE(sql)
         return True if account is None else False
