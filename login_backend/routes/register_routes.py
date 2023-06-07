@@ -15,6 +15,6 @@ class Register_routes:
         def register():
             data = request.json
             service = Register_service(data)
-            response = service.register()
+            response, code = service.register()
 
-            return response
+            return response, code

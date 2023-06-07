@@ -15,9 +15,9 @@ class Register_service:
 
         if self.checkAccountValid():
             self.query.insertOne(sql)
-            return {'message': 'Conta criada com sucesso!'}
+            return {'message': 'Conta criada com sucesso!'}, 201
 
-        return {'message': 'O nome de usuário deve ser único'}
+        return {'message': 'O nome de usuário deve ser único'}, 403
 
     def checkAccountValid(self):
         sql = f"""SELECT username
